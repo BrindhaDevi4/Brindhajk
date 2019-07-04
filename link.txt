@@ -1,0 +1,6 @@
+To find the node address in server
+java -jar selenium-server-standalone-3.7.0.jar -role hub
+
+
+command to register node with server:
+java -Dwebdriver.chrome.driver="C:/Users/brindhadevim/Desktop/selenium/chromedriver.exe" -jar selenium-server-standalone-3.7.0.jar -role webdriver -hub http://192.168.27.34:4444/grid/register -port 5566
